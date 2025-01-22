@@ -37,11 +37,12 @@ export const companies = [
 
 export const Companies = () => {
   return (
-    <section className="py-20 md:py-24 overflow-hidden">
+    <section className=" overflow-hidden">
       <div className="container">
-        <div className="flex items-center gap-5">
-          <div className="flex-1 md:flex-none">
-            <h2>Trusted by top innovative teams</h2>
+        <div className="border-l border-r border-[var(--color-border)] overflow-hidden">
+        <div className="flex flex-col md:flex-row items-center gap-5 px-12 py-10">
+          <div className="flex-1 md:flex-none text-center ">
+            <h2>Empowering Creatators at landing companies</h2>
           </div>
           <div className="flex-1 [mask-image:linear-gradient(to_right,transparent,black_60%,transparent)]">
             <motion.div
@@ -71,6 +72,7 @@ export const Companies = () => {
             </motion.div>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );

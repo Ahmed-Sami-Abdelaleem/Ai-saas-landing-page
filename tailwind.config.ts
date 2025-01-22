@@ -48,9 +48,14 @@ const config: Config = {
           "50%": { opacity: "0" },
           "100%": { opacity: "1" },
         },
+        progress: {
+          "0%": { transform: "scale(0)" },
+          "100%": { transform: "scale(1)" },
+        },
       },
       animation: {
         "cursor-blink": "cursor-blink 1s step-start infinite",
+        "progress": "progress 1s ease-in-out",
       },
     },
   },

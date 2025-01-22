@@ -2,13 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@layer base{
-   :root{
-    --color-violet-400:theme('colors.violet.400');
-    --color-fuchsia-400:theme('colors.fuchsia.400');
-    --color-amber-300:theme('colors.amber.300');
-    --color-teal-300:theme('colors.teal.300');
-    --color-gray-950:theme('colors.gray.950');
+@layer base {
+  :root {
+    --color-violet-400: theme("colors.violet.400");
+    --color-fuchsia-400: theme("colors.fuchsia.400");
+    --color-fuchsia-900: theme("colors.fuchsia.900");
+    --color-amber-300: theme("colors.amber.300");
+    --color-teal-300: theme("colors.teal.300");
+    --color-gray-950: theme("colors.gray.950");
+    --color-indigo-900: theme("colors.indigo.900");
+    --color-border: theme("colors.gray.200/20%");
+    --logo-translate: 148px;
+  }
+  .absolute-center {
+    @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+  }
+  @media (min-width: 1024px) {
+    :root {
+      --logo-translate: 179px;
+    }
+  }
 }
-   }

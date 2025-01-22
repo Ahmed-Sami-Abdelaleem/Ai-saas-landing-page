@@ -95,13 +95,13 @@ export const Features = () => {
           </ul>
           <Button1 className="w-48 my-28">Try it now</Button1>
            {/* Orbit with Logos */}
-           <div className="relative py-56 md:py-24">
-            <Orbit className="size-[220px] lg:size-[230px]" />
-            <Orbit className="size-[320px] lg:size-[350px]" />
+           <div className="relative py-56 md:py-0 md:-inset-y-36 md:inset-x-32  md:px-12">
+            <Orbit className="size-[200px] lg:size-[230px]" />
+            <Orbit className="size-[300px] lg:size-[350px]" />
 
             {/* Center Element */}
             <div
-              className="absolute-center size-24 bg-gray-200 bg-[conic-gradient(from_45deg,var(--color-violet-400),var(--color-fuchsia-400),var(--color-amber-300),var(--color-teal-300),var(--color-violet-400))]"
+              className="absolute-center size-20 sm:size-24 md:size-28 bg-gray-200 bg-[conic-gradient(from_45deg,var(--color-violet-400),var(--color-fuchsia-400),var(--color-amber-300),var(--color-teal-300),var(--color-violet-400))]"
               style={{
                 maskImage: `url(${logoImage.src})`,
                 maskSize: "contain",
@@ -117,9 +117,9 @@ export const Features = () => {
                   alt={logo.alt}
                   className="absolute border rounded-lg p-1 bg-gray-950"
                   style={{
-                    transform: `rotate(${logo.rotate}deg) translate(168px) rotate(-${logo.rotate}deg)`,
+                    transform: `rotate(${logo.rotate}deg) translate(var(--logo-translate, 148px)) rotate(-${logo.rotate}deg)`,
                   }}
-                />
+                  data-lg-translate="168px" />
               ))}
             </div>
           </div>

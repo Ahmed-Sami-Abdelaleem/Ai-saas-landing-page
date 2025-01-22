@@ -3,6 +3,7 @@ import logoImage from "@/assets/images/sphereal-logo.svg?url";
 import { useState } from "react";
 import { twMerge } from "tailwind-merge";
 import Link from "next/link";
+import Button1 from "@/components/Button1";
 
 export const navItems = [
   {
@@ -131,11 +132,7 @@ export const Header = () => {
                   Login
                 </button>
               </div>
-              <div className="w-full rounded-lg border-2 border-transparent [background:linear-gradient(var(--color-gray-950),var(--color-gray-950))_content-box,conic-gradient(from_45deg,var(--color-violet-400),var(--color-fuchsia-400),var(--color-amber-300),var(--color-teal-300),var(--color-violet-400))_border-box] relative">
-                <button className="w-full py-2 px-5 text-sm font-bold  tracking-widest text-gray-400 uppercase">
-                  Register
-                </button>
-              </div>
+             <Button1 className="w-52">Register</Button1>
             </nav>
           </div>
         </div>

@@ -7,8 +7,8 @@ export const Hero = () => {
   return (
     <section>
       <div className="container">
-        <div className="border-l border-r border-[var(--color-border)] overflow-hidden ">
-          <div className="container py-24 md:py-32 justify-center items-center flex flex-col relative isolate [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]">
+        <div className="border-l border-r border-[var(--color-border)] overflow-hidden">
+          <div className="container py-24 md:py-48 justify-center items-center flex flex-col relative isolate [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]">
             <div className="absolute -z-10 inset-0 bg-[radial-gradient(circle_farthest-corner,var(--color-fuchsia-900)_50%,var(--color-indigo-900)_75%,transparent)] [mask-image:radial-gradient(circle_farthest-side,black,transparent)]"></div>
             <div className="absolute -z-10 inset-0">
               <div className="absolute-center">
@@ -54,7 +54,7 @@ export const Hero = () => {
               <div className="absolute left-1/2 top-0">
                 <div className="bg-gradient-to-b from-violet-400 to-gray-950 size-8 rounded-full -translate-x-[324px] rotate-135"></div>
                 <div className="bg-gradient-to-b from-violet-400 to-gray-950 size-8 rounded-full translate-x-[324px] -translate-y-[124px] -rotate-135"></div>
-                <div className="bg-gradient-to-b from-fuchsia-400 to-gray-950 size-4 rounded-full -translate-x-[442px] -translate-y-[300px] -rotate-135"></div>
+                <div className="bg-gradient-to-b from-fuchsia-400 to-gray-950 size-4 rounded-full -translate-x-[442px] -translate-y-[300px] rotate-135"></div>
                 <div className="bg-gradient-to-b from-teal-400 to-gray-950 size-5 rounded-full translate-x-[442px] -translate-y-[239px] -rotate-135"></div>
               </div>
               <div className="absolute top-[40%] left-0 z-10 -translate-x-36">
