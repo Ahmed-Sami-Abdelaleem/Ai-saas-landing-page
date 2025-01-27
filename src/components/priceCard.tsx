@@ -2,7 +2,7 @@ import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
-interface Props {
+export interface Tier {
     title: string;
     description: string;
     price: number | string | null; // Allow null for price
@@ -15,7 +15,7 @@ interface Props {
   }
  
   
-  function PriceCard(props: Props) {
+  function PriceCard(props: Tier) {
     const {
       title,
       price,
