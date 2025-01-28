@@ -57,16 +57,16 @@ export const Hero = () => {
                 <div className="bg-gradient-to-b from-fuchsia-400 to-gray-950 size-4 rounded-full -translate-x-[442px] -translate-y-[300px] rotate-135"></div>
                 <div className="bg-gradient-to-b from-teal-400 to-gray-950 size-5 rounded-full translate-x-[442px] -translate-y-[239px] -rotate-135"></div>
               </div>
-              <div className="absolute top-[40%] left-0 z-10 -translate-x-36">
-                <div className="bg-gray-800/80 border border-gray-700 backdrop-blur-md p-2 rounded-xl  w-64 ">
+              <div className="absolute hidden md:block top-[40%] left-0 z-10 -translate-x-24">
+                <div className="bg-gray-800/80 text-xs border border-gray-700 backdrop-blur-md p-2 rounded-xl  w-64 ">
                   <div>Can you generate an incredible Front end dev video tutorial?</div>
-                  <div className="text-right text-gray-400 text-sm font-semibold">1m ago</div>
+                  <div className="text-right text-gray-400 text-xs  font-semibold">1m ago</div>
                 </div>
               </div>
-              <div className="absolute top-[50%] left-0 z-10 translate-x-96">
-                <div className="bg-gray-800/80 border border-gray-700 backdrop-blur-md p-2 rounded-xl  w-64 ">
+              <div className="absolute hidden md:block top-[50%] left-0 z-10 translate-x-64">
+                <div className="bg-gray-800/80 text-xs border border-gray-700 backdrop-blur-md p-2 rounded-xl  w-64 ">
                   <div><strong>Brainwave:</strong> I create one based on videos from Front end Tribe</div>
-                  <div className="text-right text-gray-400 text-sm font-semibold">Just now</div>
+                  <div className="text-right text-gray-400 text-xs  font-semibold">Just now</div>
                 </div>
               </div>
               <div className="mt-20  rounded-2xl overflow-hidden border-2 border-gradient relative flex">
